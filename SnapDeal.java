@@ -77,7 +77,7 @@ public class SnapDeal {
 		File b = new File("./snaps/shoe.png");
 		FileUtils.copyFile(a, b);
 		driver.findElement(By.xpath("(//i[@class='sd-icon sd-icon-delete-sign'])[3]")).click();
-		//driver.close();
+		driver.close();
 
 	}
 
